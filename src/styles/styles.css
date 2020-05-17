@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Bold.eot);
+    src: url(./fonts/Montserrat-Bold.woff2) ('woff2');
+        src: url(./fonts/Montserrat-Bold.woff) ('format');
+        font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+.common__button:hover {
+    color: #00ff00;
+    transform: translateX(3px);
+}
+
+@media screen and ( max-width: 650px) {
+    .header__title-logo {
+        margin: 25px 250px 25.31px 223px;
+    }
+    .common__button {
+        width: 110px;
+    }
+    .header__title-links {
+        flex-direction: column;
+    }
+    .common__button {
+        flex-wrap: wrap;
+    }
+}
+
+.hero__container-wrapper-image {
+    background-image: url(./image/bcg.png);
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero__container-image-barber {
+    margin: 209px 360px 578.21px;
+    position: absolute;
+}
+
+.hero__container-text {
+    font-family: 'Montserrat', 'sans serif';
+    font-weight: bold;
+    font-size: 32px;
+    width: fit-content;
+    margin: 475px 360px 44px;
+}
+
+.hero__container-button-book {
+    margin: 50px 392px 327px;
+    position: absolute;
+}
+
+.service__container-main-info {
+    width: 1920px;
+    display: flex;
+}
+
+.service__container-bcg {
+    margin: 247px 0 159px;
+    position: absolute;
+    opacity: .8;
+}
+
+.service__container-bcg-main {
+    margin: 88px 0 618px;
+}
+
+.service__container-title {
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #FF7A00;
+    position: absolute;
+    min-width: 500px;
+    left: 767px;
+    margin-bottom: 44px;
+    top: 1150px;
+}
+
+.service__container-title:before {
+    content: url(./image/Ellipse\ 2.png);
+    width: 21px;
+    height: 21px;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.service__container-list-production {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 260px;
+    margin-left: 434px;
+    position: absolute;
+    min-width: 80vw;
+    list-style: none;
+    align-items: center;
+
+
+
+}
+
+.service__container-list-link {
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #FFF1E3;
+    align-items: center;
+    position: relative;
+    margin-bottom: 16px;
+    text-decoration: none;
+
+}
+
+.service__container-text-undeline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.link-img-first:before {
+    content: url(./image/icon/icon/Vector\ copy.png);
+}
+
+.link-img-second:before {
+    content: url(./image/icon/icon/Vectorbritva.png);
+}
+
+.link-img-third:before {
+    content: url(./image/icon/icon/5fen.png);
+}
+
+.link-img-forth:before {
+    content: url(./image/Vector.png);
+}
+
+.link-img-fifth:before {
+    content: url(./image/icon/icon/4schertka.png);
+}
+
+.link-img-sixth:before {
+    content: url(./image/icon/icon/6lezvie.png);
+    opacity: .8;
+}
