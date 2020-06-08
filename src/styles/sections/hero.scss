@@ -1,26 +1,31 @@
-.hero__container-wrapper-image {
-    background-image: url(./image/bcg.png);
-    width: 1920px;
-    height: 1080px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.hero {
+    padding: 209px 0 311px;
+    background-image: url("../image/bcg.png");
 }
 
 .hero__container-image-barber {
-    margin: 209px 360px 578.21px;
-    position: absolute;
+    margin-bottom: 73px;
 }
+
 
 .hero__container-text {
     font-family: 'Montserrat', 'sans serif';
     font-weight: bold;
     font-size: 32px;
     width: fit-content;
-    margin: 475px 360px 44px;
+    margin-bottom: 60px;
 }
 
-.hero__container-button-book {
-    margin: 50px 392px 327px;
+.hero__container-text {
+    color: #000000;
+}
+
+.team__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__image-jakob {
     position: absolute;
+    margin: 16px 16px 16px -16px;
 }

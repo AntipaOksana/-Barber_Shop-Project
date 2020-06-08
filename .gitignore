@@ -3,3 +3,7 @@ package-lock.json
 build
 .DS_Store
 .vscode/
+ssh
+ssh.pub
+desktop
+desktop.pub

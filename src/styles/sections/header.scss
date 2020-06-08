@@ -1,68 +1,29 @@
-.header__title-list {
-    background-color: #222222;
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
-}
+.header {
+    background-color: $color-text-dark;
+    padding: 24px 0;
 
-.header__title-logo {
-    margin: 25px 360px 25.31px 223px;
-}
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.header__title-links {
-    margin: 25px 0 25.31px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    &__burger {
+        width: 29px;
+        cursor: pointer;
+        display: none;
 
-.header__title-links-list {
-    margin-right: 44px;
-    text-decoration: none;
-}
 
-.header__title-links-list:hover {
-    transform: translateY(3px);
-    color: #FF44FF;
-    text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
-}
+        &-line {
+            height: 4px;
+            background: #ffffff;
+            margin: 4px 0;
+            border-radius: 4px;
+            transition: all .5s ease;
+        }
 
-.header__title-busket {
-    margin: 25px 40px 25.31px;
-}
-
-.header__link--home {
-    color: #FF7A00;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.header__link--other {
-    list-style: none;
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.header__point {
-    color: #FF7A00;
-}
-
-.header__title-links-list-marker {
-    color: #ffffff;
-}
-
-.header__button-submit {
-    display: flex;
-}
-
-.header__title-button-book,
-.hero__container-button-book {
-    margin-right: 360px;
-    background-color: #FF7A00;
-    border-radius: 4px;
-}
-
-.header__title-button-contact_us {
-    background-color: #222222;
-    margin-right: 8px;
+        &:hover .header__burger-line {
+            background-color: #FF44FF;
+        }
+    }
 }

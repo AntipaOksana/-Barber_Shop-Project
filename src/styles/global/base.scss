@@ -25,24 +25,7 @@ h1, h2, h3, h5,h4, p {
 
 .container {
   margin: 0 auto;
-  width: 1920px;
+  width: 1200px;
 }
 
-.common__button {
-  width: 173px;
-  height: 52px;
-  display: flex;
-  justify-content: center;
-  margin: 24px 0 24px;
-  color: #ffffff;
-}
 
-.common__button:hover {
-  color: #00ff00;
-  transform: translateX(3px);
-}
-
-.link {
-  text-decoration: none;
-  color: #ffffff;
-}

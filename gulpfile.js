@@ -54,15 +54,15 @@ gulp.task('copy:html', function () {
 });
 
 gulp.task('copy:image', function () {
-    return gulp.src('./src/image')
-      .pipe(gulp.dest('build'));
+    return gulp.src('./src/image/**/*.*')
+      .pipe(gulp.dest('build/image'));
 });
 
 gulp.task('watch',  () => {
     gulp.watch('src/styles/**/*.scss', gulp.series('styles:compile'));
     gulp.watch('src/scripts/**/*.js', gulp.series('scripts'));
     gulp.watch('src/index.html', gulp.series('copy:html'));
-    gulp.watch('src/image/**.*', gulp.series('copy:image'));
+    gulp.watch('src/image/**/*.*', gulp.series('copy:image'));
 });
 
 gulp.task('default', gulp.series(

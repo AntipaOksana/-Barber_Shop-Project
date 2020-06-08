@@ -168,3 +168,17 @@ html {
     content: url(./image/icon/icon/6lezvie.png);
     opacity: .8;
 }
+
+.hero__container-text {
+    color: #000000;
+}
+
+.team__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__image-jakob {
+    position: absolute;
+    margin: 16px 16px 16px -16px;
+}
