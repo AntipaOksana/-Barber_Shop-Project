@@ -1,29 +1,98 @@
 .header {
-    background-color: $color-text-dark;
-    padding: 24px 0;
+  background-color: $color-text-dark;
+  padding: 24px 0;
 
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__burger {
+    width: 29px;
+    cursor: pointer;
+    display: none;
+
+
+    &-line {
+      height: 4px;
+      background: #ffffff;
+      margin: 4px 0;
+      border-radius: 4px;
+      transition: all .5s ease;
     }
 
-    &__burger {
-        width: 29px;
-        cursor: pointer;
-        display: none;
-
-
-        &-line {
-            height: 4px;
-            background: #ffffff;
-            margin: 4px 0;
-            border-radius: 4px;
-            transition: all .5s ease;
-        }
-
-        &:hover .header__burger-line {
-            background-color: #FF44FF;
-        }
+    &:hover .header__burger-line {
+      background-color: #FF44FF;
     }
+  }
+
+  &__nav-active {
+    margin-right: 44px;
+  }
+
+  &__nav-link {
+    display: inline-block;
+    margin-right: 44px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .5s ease;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: #FF44FF;
+      text-shadow: 0 8px 0 #00ff00, 0 -8px 0 #00ff00, 8px 0 0 #00ff00, -8px 0 0 #00ff00;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &-contactus {
+      width: 173px;
+      height: 52px;
+      margin-right: 8px;
+      border: 1px solid #FFF2E5;
+      border-radius:4px;
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 16px;
+      color: #ffffff;
+      cursor: pointer;
+      outline: none;
+      transition: all .5s ease;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #3D3A37;
+      }
+    }
+
+
+    &__contacts-amount {
+      display: inline-block;
+      margin-left: -23px;
+      color: #d9dfdd;
+      justify-content: center;
+    }
+  }
+
+  &__contacts-amount {
+    display: inline-block;
+    margin-right: 40px;
+    align-content: center;
+    margin-left: -26px;
+    color: #ffffff;
+    font-size: 24px;
+    text-transorm: capitalized;
+
+
+  }
+
 }

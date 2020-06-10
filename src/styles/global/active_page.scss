@@ -1,0 +1,18 @@
+.active-page {
+  margin-right: 44px;
+  color: $color-title;
+  display: inline-block;
+  position: relative;
+
+  &:before {
+    content: '';
+    border-radius: 50%;
+    background-color: $color-title;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left:-9px;
+  }
+}

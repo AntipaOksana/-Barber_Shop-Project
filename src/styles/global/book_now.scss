@@ -1,0 +1,17 @@
+.book-now {
+  width: 165px;
+  height: 52px;
+  background-color: #FF7A00;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #DA6401;
+  }
+
+}
