@@ -1,31 +1,90 @@
 .service {
-  padding: 169px 0 159px;
+  padding: 160px 0;
   background-image: url("../image/mignon-hemsley-t577VXPnW-A-unsplash 1.png");
+
   background-repeat: no-repeat;
-  background-position: left;
-  margin-top: 88px;
+  background-position: left bottom;
+  min-height: 806px;
   position: relative;
 
   &__title {
-    margin-top: 160px;
-    margin-left: 638px;
+    justify-content: center;
+    margin-bottom: 30px;
   }
 
-  &__list {
+  &__wrapper {
+    padding: 100px 0;
+    background-color: rgba(#000000, .8);
+  }
+
+  &__list-items-detail{
+    width: 30%;
+    padding-left: 69px;
     position: relative;
+
+
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 69px;
+      height: 69px;
+      left: 0;
+      top: 0;
+    }
+    &:nth-child(1):before {
+      background-image: url("../image/scissors.png");
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(2):before {
+      background-image: url("../image/Vectorbritva.png");
+      background-repeat: no-repeat;
+    }
+    &:nth-child(3):before {
+       background-image: url("../image/5fen.png");
+       background-repeat: no-repeat;
+     }
+
+    &:nth-child(4):before {
+      background-image: url("../image/2bottle.png");
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(5):before {
+      background-image: url("../image/4schertka.png");
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(6):before {
+      background-image: url("../image/6lezvie.png");
+      background-repeat: no-repeat;
+    }
+
+
+
+  }
+  &__list-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 6px;
+    margin-top: -6px;
   }
 
-  &__list-bg {
-    position: absolute;
-    padding: 159px 0 159px;
-    margin-left: -115px;
-
+  &__list-price {
+    font-weight: bold;
+    display: block;
   }
 
   &__list-items {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    color: #FFF1E3;
+    min-height: 200px;
+    align-content: space-between;
+
   }
 
 

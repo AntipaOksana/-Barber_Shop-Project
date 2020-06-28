@@ -1,196 +1,71 @@
 .form {
-    background-image: url("../image/bgd25.png");
-    background-position: center;
-    height: 1000px;
-    background-repeat: no-repeat;
-    width: 1918px;
-    margin-bottom: 64px;
-    display:flex;
-}
+  background-image: url("../image/formbcg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #222222;
+  padding: 64px 0;
 
 
-.form__title {
-    background-color: #d9dfdd;
-    padding: 64px 0 63px;
-    width: 852px;
-    height: 900px;
-    margin: 0 auto;
-}
-
-.form__title-text {
-    font-family: 'Montserrat';
+  &__title-text {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    color: #000000;
-    margin: 64px 0 32px;
-}
+    margin-bottom: 32px;
+  }
 
-.form__title-text-paragraph {
+  &__title-text-paragraph {
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 16px;
     text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-}
+    margin-bottom: 64px;
+  }
+  
+  &__container {
+    width: 852px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 64px 126px;
+  }
 
-.form__name-input {
-    width: 644px;
-    height: 44px;
-    border-radius: 5px;
-    align-items: center;
-    margin-left: 104px;
-    margin-bottom: 44px;
-
-}
-
-.form__name-input:hover {
-    transform: translateX(5px);
-    box-shadow: 0px 0px 12px rgba(0, 200, 0, 0.8);
-}
-
-.form__name-input:focus {
-    border-radius: 20%;
-    background-color: gradient(red, blue, green);
-}
-
-.form__input-name-par {
-    margin: 60px 110px 24px;
-    color: #000000;
-}
-
-.form__input-name {
-    font-family: "Montserrat";
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.form__date-input {
-    width: 288px;
-    height: 44px;
-    border-radius: 5px;
-    align-items: center;
-}
-
-.form__date-input:focus {
-    border-radius: 20%;
-    background-color: gradient(red, blue, green);
-}
-
-.form__input-date-par {
-    margin-left: 100px;
+  &__wrapper-name {
     margin-bottom: 24px;
-    color: #000000;
-}
+  }
 
-.form__input-time-par {
-    color: #000000;
-    margin-right: 334px;
-    margin-bottom: 24px;
+  &__label {
+    display: block;
+    margin-left: 24px;
+  }
 
-}
-
-.form__time-input {
-    width: 288px;
+  &__input {
     height: 44px;
-    border-radius: 5px;
-    align-items: center;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+  }
 
-}
-
-.form__-input:focus {
-    border-radius: 20%;
-    background-color: gradient(red, blue, green);
-}
-
-.form__input-timing {
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-}
-
-.form__time-input:hover {
-    transform: translateX(5px);
-    box-shadow: 0px 0px 12px rgba(0, 200, 0, 0.8);
-}
-
-.form__date-input:hover {
-    transform: translateX(5px);
-    box-shadow: 0px 0px 12px rgba(0, 200, 0, 0.8);
-}
-
-.form__radiobutton-block-info {
-    border: solid 2px #000000;
-    display: flex;
-    width: 600px;
-    height: 79px;
-    justify-content: space-between;
-    margin-bottom:35px;
-}
-
-.form__checkbox-block-info {
-    border: solid 2px #000000;
-    display: flex;
-    width: 600px;
-    height: 102px;
-    justify-content: space-between;
-}
-
-.form-text-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.form__input-timing {
+  &__wrapper-datetime {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
     margin-bottom: 24px;
-}
+  }
 
-.form__radiobutton-title {
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 16px;
-}
+  &__wrapper-master {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 53px;
+    border: 1px solid #dfdfdf;
+    padding: 20px 27px;
+    margin-bottom: 24px;
+  }
 
-.form__checkbox-title {
-    font-size: 16px;
-    font-family: "Montserrat";
-    color: #000;
-    margin-left: 130px;
-}
+  &__btn {
+    margin: 0 auto;
+    display: block;
+  }
 
-.form__checkbox-block-info {
-    margin-left: 126px;
-}
+  &__label {
+    margin-bottom: 24px;
+  }
 
-.form__radiobutton-title {
-    color: #000;
-    font-size: 16px;
-    font-family: "Montserrat";
-    margin-left: 130px;
-}
-
-.form__radiobutton-block-info {
-    margin-left: 126px;
-}
-
-.form__checkbox-block-info {
-    display: flex;
-    justify-content: space-around;
-    color: #000;
-    align-items: center;
-}
-
-.form__radiobutton-block-info {
-    display: flex;
-    justify-content: space-around;
-    color: #000;
-    align-items: center;
-}
-
-input.hero__container-button-book {
-    margin-left: 40%;
-    margin: 24px auto 64px;
 }

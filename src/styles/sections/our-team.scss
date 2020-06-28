@@ -1,0 +1,51 @@
+  .our-team {
+    padding: 106px 0;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    &__title-regular {
+      font-size: 39px;
+      font-weight: bold;
+      color: #FF7A00;
+      margin-bottom: 24px;
+      margin-top: 97px;
+    }
+
+    &__text {
+      color: #222222;
+      font-size: 16px;
+
+    }
+
+    &__img {
+      margin-right: 8px;
+    }
+
+    &__image-jakob2 {
+      cursor: pointer;
+      margin-right: 24px;
+      transition:.10ms ease-out;
+      box-shadow: 15px 16px 0 #FF7A00,
+                  15px -16px 0 #ff7a00;
+
+      &:hover {
+        transform: translateX(5px);
+      }
+    }
+
+    &__image-arrow {
+      margin-left: 5px;
+      cursor: pointer;
+
+    }
+
+  }
+
+
+
+
+

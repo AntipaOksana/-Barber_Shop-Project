@@ -1,20 +1,20 @@
 .title-global {
   font-size: 64px;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  align-items: center;
   text-transform: capitalize;
   color: #FF7A00;
-  position: relative;
+  //position: relative;
 
   &:before {
     content: "";
     background-color: $color-title;
     border-radius: 50%;
-    position: absolute;
+    //position: absolute;
     height: 21px;
     width: 21px;
     display: inline-block;
-    transform: translateX(-116%) translateY(127%);
-
+    //transform: translateX(-116%) translateY(127%);
+    margin-right: 20px;
   }
 }

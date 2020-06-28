@@ -76,7 +76,7 @@
 </header>
 
 <section class="hero">
-    <div class="hero__info">
+    <div class="hero__info container">
         <img src="./image/Logo.png" alt="error" class="hero__info-img">
         <p class="hero__info-text">Our barbershop is a place of style<br>
             and mutual understanding in<br>
@@ -86,22 +86,41 @@
 </section>
 
 <section class="service">
-    <div class="service__list container">
-        <img class="service__list-bg" src="./image/greybcg.png">
-        <h1 class="service__title title-global">Our services</h1>
-        <ul class="service__list-items">
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
-            <li class="service__list-items-detail">Men's haircut<p class="service__list-items-details-text">60 min.
-                350 / 400 / 450 ₴</p></li>
+
+    <h1 class="service__title title-global">Our services</h1>
+    <div class="service__wrapper">
+        <ul class="service__list-items container">
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+            <li class="service__list-items-detail">
+                <h4 class="service__list-title">Men's haircut </h4>
+                <span class="service__list-time">60 min.</span>
+                <span class="service__list-price">350 / 400 / 450 ₴</span>
+            </li>
+
         </ul>
 
 
@@ -109,5 +128,198 @@
 
 
 </section>
+
+<section class="our-team">
+    <div class="our-team__container container">
+
+        <div class="our-team__images ">
+            <img src="./image/jakob1.png" alt="error" class="our-team__image-jakob1 our-team__img">
+            <img src="./image/jakob2.png" alt="error" class="our-team__image-jakob2 our-team__img">
+            <img src="./image/jakob3.png" alt="error" class="our-team__image-jakob3 our-team__img">
+            <img src="./image/jakob4.png" alt="error" class="our-team__image-jakob4 our-team__img">
+            <img src="./image/arrow.png" alt="error" class="our-team__image-arrow">
+        </div>
+        <div class="our-team__title">
+
+            <h2 class="our-team__title-reg title-global">Our Team</h2>
+            <h4 class="our-team__title-regular">Jorge Jones</h4>
+            <p class="our-team__text">- How did you become a barber?
+                - I decided to master <br>
+                the creative profession. And he <br>
+                found himself precisely in this. So my life has changed<br>
+                dramatically.<br>
+                - What exactly do you like in your profession? Why are<br>
+                you blissing?<br>
+                - I like to work in a men's team, communicating with<br>
+                interesting people.<br>
+                - Why should a person who wants a haircut choose<br>
+                you?<br>
+                - Because I'm old and charismatic.</p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<section class="form">
+    <form class="form__container">
+        <h2 class="form__title-text">book an appointment <br>
+            right now!</h2>
+        <p class="form__title-text-paragraph">please Complete all these fields.</p>
+
+        <div class="form__wrapper-name">
+            <label for="name" class="form__label">name:</label>
+            <input type="text" id="name" class="form__input form__input-name">
+        </div>
+
+        <div class="form__wrapper-datetime">
+            <div class="form__input-wrapper-date">
+                <label for="date" class="form__label">date:</label>
+                <input type="text" id="date" class="form__input form__input-date">
+            </div>
+            <div class="form__input-wrapper-time">
+                <label for="date" class="form__label">time:</label>
+                <input type="text" id="time" class="form__input form__input-time">
+            </div>
+        </div>
+
+        <label class="form__label">Choose a master</label>
+        <div class="form__wrapper-master">
+            <p class="form__input-wrapper-radio">
+                <input type="radio" id="radio1" class="form__input-radio" name="radio">
+                <label for="radio1" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="radio" id="radio2" class="form__input-radio" name="radio">
+                <label for="radio2" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="radio" id="radio3" class="form__input-radio" name="radio">
+                <label for="radio3" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="radio" id="radio4" class="form__input-radio" name="radio">
+                <label for="radio4" class="form__label-btn">Choose something</label>
+            </p>
+        </div>
+        <label class="form__label">Choose a master</label>
+        <div class="form__wrapper-master">
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox1" class="form__input-radio">
+                <label for="checkbox1" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox2" class="form__input-radio">
+                <label for="checkbox2" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox3" class="form__input-radio">
+                <label for="checkbox3" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox4" class="form__input-radio">
+                <label for="checkbox4" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox5" class="form__input-radio">
+                <label for="checkbox5" class="form__label-btn">Choose something</label>
+            </p>
+            <p class="form__input-wrapper-radio">
+                <input type="checkbox" id="checkbox6" class="form__input-radio">
+                <label for="checkbox6" class="form__label-btn">Choose something</label>
+            </p>
+        </div>
+
+        <button class="book-now form__btn">book now</button>
+    </form>
+</section>
+
+<section class="products">
+    <h2 class="products__title title-global">
+    Popular products
+</h2>
+    <div class="container products__main-info">
+
+        <div class="products__item-description">
+            <img src="./image/bottlepop.png" alt="none" class="products__img">
+            <p class="products__text-bold">barbers</p>
+            <p class="products__text-reg">Premium beard balm<br>
+                50 ml<br>
+                new york original</p>
+            <p class="products__text-ora">$ 490.00</p>
+            <button class="products__button-shopnow">shop now</button>
+            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
+        </div>
+        <div class="products__item-description">
+
+            <img src="./image/bottlepop.png" alt="none" class="products__img">
+            <p class="products__text-bold">barbers</p>
+            <p class="products__text-reg">Premium beard balm<br>
+                50 ml<br>
+                new york original</p>
+            <p class="products__text-ora">$ 490.00</p>
+            <button class="products__button-shopnow">shop now</button>
+            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
+        </div>
+        <div class="products__item-description">
+            <img src="./image/bottlepop.png" alt="none" class="products__img">
+            <p class="products__text-bold">barbers</p>
+            <p class="products__text-reg">Premium beard balm<br>
+                50 ml<br>
+                new york original</p>
+            <p class="products__text-ora">$ 490.00</p>
+            <button class="products__button-shopnow">shop now</button>
+            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
+        </div>
+        <div class="products__item-description">
+            <img src="./image/bottlepop.png" alt="none" class="products__img">
+            <p class="products__text-bold">barbers</p>
+            <p class="products__text-reg">Premium beard balm<br>
+                50 ml<br>
+                new york original</p>
+            <p class="products__text-ora">$ 490.00</p>
+            <div class="products__buttons">
+            <button class="products__button-shopnow">shop now</button>
+            <button class="products__button-cross"><img src="./image/arrow.png" alt="erro"></button>
+        </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="review">
+    <div class="container review__container">
+    <h2 class="review__title title-global">
+        Our  reviews
+    </h2>
+    <div class="review__images ">
+        <img src="./image/arrowver.png" alt="error" class="review__image-arrow">
+        <img src="./image/mini.png" alt="error" class="review__image-jakob1 our-team__img">
+        <img src="./image/glasses.png" alt="error" class="review__image-jakob2 our-team__img">
+        <img src="./image/jakob3.png" alt="error" class="review__image-jakob3 our-team__img">
+        <img src="./image/jakob4.png" alt="error" class="review__image-jakob4 our-team__img">
+        <img src="./image/arrow.png" alt="error" class="review__image-arrow">
+    </div>
+        <h3 class="review__title-reg">
+            Jorge Jones
+        </h3>
+        <p class="review__paragraph-text">
+            - How did you become a barber?
+            - I decided to master the creative profession. And he found himself<br>
+            precisely in this. So my life has changed dramatically.<br>
+            - What exactly do you like in your profession? Why are you blissing?<br>
+            - I like to work in a men's team, communicating with interesting people.<br>
+            - Why should a person who wants a haircut choose you?<br>
+            - Because I'm old and charismatic.
+        </p>
+
+    </div>
+</section>
+
 </body>
 </html>
