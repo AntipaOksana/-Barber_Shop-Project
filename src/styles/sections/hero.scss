@@ -1,21 +1,18 @@
 .hero {
+  padding: 210px 311px;
   background-image: url("../image/bcg.png");
   background-repeat: no-repeat;
 
 
-&__info-img {
-   margin: 209px 56px 73px;
-}
+  &__info-img {
+    margin-bottom: 73px;
+  }
 
-&__info-text {
-  font-size: 32px;
-  display: block;
-  align-items: center;
-  text-transform: capitalize;
-  margin-left: 56px;
-  margin-bottom:60px;
-}
-  &__info-btn {
-    margin-left: 56px;
+  &__info-text {
+    font-size: 32px;
+    display: block;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
   }
 }

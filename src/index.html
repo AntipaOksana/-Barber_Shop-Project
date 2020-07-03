@@ -172,17 +172,17 @@
         <p class="form__title-text-paragraph">please Complete all these fields.</p>
 
         <div class="form__wrapper-name">
-            <label for="name" class="form__label">name:</label>
+            <label for="name" class="form__label">Name:</label>
             <input type="text" id="name" class="form__input form__input-name">
         </div>
 
         <div class="form__wrapper-datetime">
             <div class="form__input-wrapper-date">
-                <label for="date" class="form__label">date:</label>
+                <label for="date" class="form__label">Date:</label>
                 <input type="text" id="date" class="form__input form__input-date">
             </div>
             <div class="form__input-wrapper-time">
-                <label for="date" class="form__label">time:</label>
+                <label for="date" class="form__label">Time:</label>
                 <input type="text" id="time" class="form__input form__input-time">
             </div>
         </div>
@@ -240,8 +240,8 @@
 
 <section class="products">
     <h2 class="products__title title-global">
-    Popular products
-</h2>
+        Popular products
+    </h2>
     <div class="container products__main-info">
 
         <div class="products__item-description">
@@ -251,8 +251,11 @@
                 50 ml<br>
                 new york original</p>
             <p class="products__text-ora">$ 490.00</p>
-            <button class="products__button-shopnow">shop now</button>
-            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
+            <div class="products__buttons">
+                <button class="products__button-shopnow">shop now</button>
+                <button class="products__button-cross"><span class="products__button-plus-1"></span><span
+                        class="products__button-plus-2"></span></button>
+            </div>
         </div>
         <div class="products__item-description">
 
@@ -262,18 +265,11 @@
                 50 ml<br>
                 new york original</p>
             <p class="products__text-ora">$ 490.00</p>
-            <button class="products__button-shopnow">shop now</button>
-            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
-        </div>
-        <div class="products__item-description">
-            <img src="./image/bottlepop.png" alt="none" class="products__img">
-            <p class="products__text-bold">barbers</p>
-            <p class="products__text-reg">Premium beard balm<br>
-                50 ml<br>
-                new york original</p>
-            <p class="products__text-ora">$ 490.00</p>
-            <button class="products__button-shopnow">shop now</button>
-            <button class="products__button-cross"><img src="./image/cross.png" alt="erro"></button>
+            <div class="products__buttons">
+                <button class="products__button-shopnow">shop now</button>
+                <button class="products__button-cross"><span class="products__button-plus-1"></span><span
+                        class="products__button-plus-2"></span></button>
+            </div>
         </div>
         <div class="products__item-description">
             <img src="./image/bottlepop.png" alt="none" class="products__img">
@@ -283,9 +279,23 @@
                 new york original</p>
             <p class="products__text-ora">$ 490.00</p>
             <div class="products__buttons">
-            <button class="products__button-shopnow">shop now</button>
-            <button class="products__button-cross"><img src="./image/arrow.png" alt="erro"></button>
+                <button class="products__button-shopnow">shop now</button>
+                <button class="products__button-cross"><span class="products__button-plus-1"></span><span
+                        class="products__button-plus-2"></span></button>
+            </div>
         </div>
+        <div class="products__item-description">
+            <img src="./image/bottlepop.png" alt="none" class="products__img">
+            <p class="products__text-bold">barbers</p>
+            <p class="products__text-reg">Premium beard balm<br>
+                50 ml<br>
+                new york original</p>
+            <p class="products__text-ora">$ 490.00</p>
+            <div class="products__buttons">
+                <button class="products__button-shopnow">shop now</button>
+                <button class="products__button-cross"><span class="products__button-plus-1"></span><span
+                        class="products__button-plus-2"></span></button>
+            </div>
         </div>
     </div>
 
@@ -293,31 +303,36 @@
 </section>
 
 <section class="review">
-    <div class="container review__container">
-    <h2 class="review__title title-global">
-        Our  reviews
-    </h2>
-    <div class="review__images ">
-        <img src="./image/arrowver.png" alt="error" class="review__image-arrow">
-        <img src="./image/mini.png" alt="error" class="review__image-jakob1 our-team__img">
-        <img src="./image/glasses.png" alt="error" class="review__image-jakob2 our-team__img">
-        <img src="./image/jakob3.png" alt="error" class="review__image-jakob3 our-team__img">
-        <img src="./image/jakob4.png" alt="error" class="review__image-jakob4 our-team__img">
-        <img src="./image/arrow.png" alt="error" class="review__image-arrow">
-    </div>
-        <h3 class="review__title-reg">
-            Jorge Jones
-        </h3>
-        <p class="review__paragraph-text">
-            - How did you become a barber?
-            - I decided to master the creative profession. And he found himself<br>
-            precisely in this. So my life has changed dramatically.<br>
-            - What exactly do you like in your profession? Why are you blissing?<br>
-            - I like to work in a men's team, communicating with interesting people.<br>
-            - Why should a person who wants a haircut choose you?<br>
-            - Because I'm old and charismatic.
-        </p>
-
+    <div class="review__bg-dark">
+        <div class="container review__container">
+            <h2 class="review__title title-global">
+                Our reviews
+            </h2>
+            <div class="review__images ">
+                <img src="./image/arrowver.png" alt="error" class="review__image-arrow">
+                <img src="./image/mimimi.png" alt="error" class="review__image-mimimi review_img">
+                <div class="review__border-shadow"><img src="./image/glasses.png" alt="error"
+                                                        class="review__image-jakob2 review__img">
+                </div>
+                <img src="./image/jakob3.png" alt="error" class="review__image-jakob3 review__img">
+                <img src="./image/jakob4.png" alt="error" class="review__image-jakob4 review__img">
+                <img src="./image/arrow.png" alt="error" class="review__image-arrow">
+            </div>
+            <div class="review__text">
+                <div class="review__paragraph-text">
+                    <h3 class="review__title-reg">
+                        Jorge Jones
+                    </h3>
+                    - How did you become a barber?
+                    - I decided to master the creative profession. And he found himself<br>
+                    precisely in this. So my life has changed dramatically.<br>
+                    - What exactly do you like in your profession? Why are you blissing?<br>
+                    - I like to work in a men's team, communicating with interesting people.<br>
+                    - Why should a person who wants a haircut choose you?<br>
+                    - Because I'm old and charismatic.
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

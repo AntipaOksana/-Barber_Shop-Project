@@ -1,62 +1,110 @@
 .products {
-  background-color: #E5E5E5;
-  padding: 120px 0;
+  background-color: #f8f8f8;
+  padding: 120px 0 174px;
 
-&__main-info {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 174px;
-  background-color: #E5E5E5;
+  &__main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-}
+  }
 
-&__text-bold {
-  font-size: 16px;
-  color: #000000;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-  &__title{
+  &__text-bold {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  &__title {
     margin-left: 354px;
     margin-bottom: 96px;
 
   }
 
-  &__item-description{
-    background-color: #E5E5E5;
+  &__item-description:nth-child(3) {
+    position: relative;
+
+    &:before {
+      content: 'SALE';
+      width: 129px;
+      background-color: #FF7A00;
+      color: #ffffff;
+      border-radius: 4px;
+      position: absolute;
+      text-align: center;
+      line-height: 42px;
+      left: -38px;
+      top: -32px;
+      font-weight: bold;
+
+    }
   }
 
-  &__button-shopnow{
-    width: 146px;
+
+  &__button-shopnow {
+    width: 162px;
     height: 52px;
-    margin-right: 2px;
     border-radius: 4px;
+    border: 1px solid #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
 
   }
 
-  &__button-cross{
-    width:52px;
+  &__button-cross {
+    width: 52px;
     height: 52px;
     border-radius: 4px;
-}
-  &__text-reg{
+    border: 1px solid #222222;
+    position: relative;
+    background-color: transparent;
+  }
+
+  &__text-reg {
     margin-bottom: 16px;
     color: #000000;
   }
 
-  &__text-ora{
-    color:$color-title;
+  &__text-ora {
+    color: $color-title;
     font-weight: bold;
+    margin-bottom: 24px;
 
   }
-&__buttons{
-  display: inline-block;
-  justify-content: center;
-}
 
-  &__img{
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__img {
     margin-bottom: 25px;
+    box-shadow: 0 0 6px #222222;
+  }
 
+  &__button-plus-1 {
+    position: absolute;
+    width: 3px;
+    height: 23px;
+    background-color: #222222;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__button-plus-2 {
+    position: absolute;
+    width: 23px;
+    height: 3px;
+    background-color: #222222;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

@@ -1,0 +1,57 @@
+.review {
+  background-image: url("../image/ backgrey.png");
+  background-size: cover;
+
+  &__bg-dark {
+    background-color: rgba(#000000, .8);
+    padding: 64px 0 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__title-reg {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FF7A00;
+    margin-bottom: 24px;
+
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__images {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  &__paragraph-text {
+    margin-top: 24px;
+    color: #FFF1E3;
+    margin-bottom: 100px;
+  }
+
+  &__image-jakob2 {
+    position: relative;
+    transition: .10ms ease-out;
+    cursor: pointer;
+    box-sizing: content-box;
+    left: -13px;
+  }
+
+  &__border-shadow {
+    padding: 10px 0;
+    border: 3px solid #FFF1E3;
+    margin:0 8px -18px 23px;
+  }
+
+  &__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+}
